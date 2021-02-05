@@ -506,17 +506,20 @@ footer li a{
 	font-size: 130%;
 }
 
-.ion-social-facebook:hover{
+.social-icon ion-icon{
+	font-size: 25px;
+	transition: .5s;
+	
+}
+.social-icon .facebook:hover{
 	color: #3b5998 ;
 }
-.ion-social-twitter:hover{
+.social-icon .twitter:hover{
 	color: #00aced;
 }
-.ion-social-googleplus:hover{
-	color: #DB4437 ;
-}
-.ion-social-instagram:hover{
-	color: #4c68d7;
+
+.social-icon .instagram:hover{
+	color: #DB4437;
 }
 
 .footer-para{
